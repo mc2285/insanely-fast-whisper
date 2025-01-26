@@ -158,7 +158,7 @@ def main():
 
         outputs = pipe(
             args.file_name,
-            chunk_length_s=30,
+            chunk_length_s=10,
             batch_size=args.batch_size,
             generate_kwargs=generate_kwargs,
             return_timestamps=ts,
