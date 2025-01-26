@@ -25,6 +25,7 @@ build-backend = "pdm.backend"
 [project.scripts]
 insanely-fast-whisper = "insanely_fast_whisper.cli:main"
 transcribe = "insanely_fast_whisper.transcribe:main"
+translate = "insanely_fast_whisper.translate:main"
 
 [project.urls]
 # Name based
